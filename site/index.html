@@ -1,9 +1,157 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-	<title>Hello Coursera</title>
+	<meta charset="utf-8">
+	<title>My First WebPage</title>
+	<link rel="stylesheet" href="css\style.css">
+	<link rel="icon" href="css\favicon.ico">
 </head>
+
 <body>
-<h1>Hello Crousera! It's a great course</h1>
+	<h1 id="main-heading">Aidos Mukhamejanov</h1>
+	<h2 class="uni">Astana IT University, Computer Science</h2>
+
+	<table border="2" width="100%" style="border: 1px solid black;">
+		<tr>
+			<th width="15%" style="border: 1px solid black; border-radius: 10px;">Menu</th>
+			<th width="85%" style="border: 1px solid black; border-radius: 10px;">Main Information</th>
+		</tr>
+		<tr>
+			<td style="border: 1px solid black; border-radius: 10px;"> <!--Added some Anchor Tags for faster navigation-->
+				Contest:<br>
+				<a href="#About me">About me</a><br>
+				<a href="#Ordered List">Ordered List</a><br>
+				<a href="#Undered List">Unodered List</a><br>
+				<a href="#image">Image and Button</a><br>
+				<a href="#Schedule">Schedule</a><br>
+				<a href="#Table">Table</a><br>
+				<a href="#Emoji">Emoji</a><br>
+				<a href="#Form">Form</a>
+			</td>
+			<td style="border: 1px solid black; border-radius: 10px;">
+	<div class="heading">
+	<h3 id="name"><a name="About me">About Me???</a></h3>
+
+	<p style="color:darkblue">I'm second year student in AITU. And also I'm in love with racing</p>
+	</div>
+	<hr>
+
+	<div class="main-content">
+
+	<a name="Ordered List" class="highlight">Ordered List</a>
+
+	<ol>
+		<li>SimRacing</li>
+		<li>Sleep</li>
+		<li>Watch different racing series</li>
+	</ol>
+
+	<hr>
+
+	<a name="Unodered List" class="highlight">Unodered List</a>
+
+	<ul>
+		<li><a href="https://www.formula1.com/" target="_blank" title="F1 Site"> F1 </a></li>
+		<li><a href="https://www.iracing.com/" target="_blank" title="iRacing"> iRacing </a></li>
+		<li><a href="https://lms.astanait.edu.kz/" target="_blank" title="Moodle">Moodle </a></li>
+	</ul>
+
+</div>
+
+	<hr>
+
+	<center>
+	<p>
+		<a name="image"><img src="https://dims.apnews.com/dims4/default/6a38788/2147483647/strip/true/crop/2937x1958+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F21%2F88%2Ff021253d192b9d6ac3b466f5c858%2F628c1998ee1244c7885cc1b18bd63bc2">
+	</a></p>
+	</center>
+
+	<center>
+	<p>
+	<button>Max Verstappen</button>
+	</p>
+	</center>
+
+<hr>
+<div class="footer">
+<a name="Schedule">Schedule</a>
+
+<table border="1" cellpadding="2" cellspacing="0">
+	<tr>
+		<th>Subject</th>
+		<th>Day</th>
+		<th>Time</th>
+	</tr>
+        <tr><td>WEB Technologies</td><td>Monday</td><td>13:00–15:50</td></tr>
+        <tr><td>Computer Organization and Architecture</td><td>Monday</td><td>16:00–17:50</td></tr>
+        <tr><td>Introduction to Functional programming</td><td>Monday</td><td>18:00–19:50</td></tr>
+        <tr><td>Analytic Geometry</td><td>Tuesday</td><td>16:00–17:50</td></tr>
+        <tr><td>Computer Organisation and Architecture</td><td>Wednesday</td><td>13:00–14:50</td></tr>
+        <tr><td>Kazakh</td><td>Wednesday</td><td>15:00–16:50</td></tr>
+        <tr><td>Introduction to Functional programming</td><td>Thursday</td><td>14:00–15:50</td></tr>
+	</table>
+</div>
+<hr>
+
+<h3><a name="Table">Optional task</a></h3>
+<table border="2" cellpadding="2" cellspacing="1">
+	<tr>
+		<th>Menu</th>
+		<th>Main Content</th>
+	</tr>
+	<tr>
+		<td>About Max</td>
+		<td>Max Verstappen is a 4 time F1 World Champion, he is 27 years old</td>
+	</tr>
+	<tr>
+		<td>His team</td>
+		<td><img width="500px" src="https://img.redbull.com/images/q_auto,f_auto/redbullcom/2016/03/17/1331783195864_4/red-bull-racing-aston-martin.jpg" ></td>
+	</tr>
+</table>
+
+<hr>
+<h3><a name="Emoji">Emoji</a></h3>
+<p style="font-size: 50px">&#127950; &#127843; &#x1F3AA;</p>
+
+<hr>
+
+<a name="Form">Form</a>
+<form action="/action_page.php">
+	<label for="frame">NAME??????</label><br>
+	<input type="text" id="fname name" name="fname"><br>
+	<label for="lname">GMAIL?????????</label><br>
+  	<input type="text" id="team" name="team"><br>
+  	<label for="color">COLOR???</label><br>
+  	<input type="color" id="color" name="color">
+  	<input type="submit" value="Submit">
+</form>
+	<hr>
+	<div class="static-box">
+		<p>MAX WINS IN BAKU 2025!</p>
+	</div>
+
+	<div class="relative-box">
+		<p>GEORGE RUSSEL TAKES SECOND PLACE!</p>
+	</div>
+
+	<div class="absolute-box">
+	<p>CARLOS TAKES HIS FIRST PODIUM WITH WILLIAMS!</p>
+	</div>
+
+
+    <div class="box-left">
+      <h3>Left Box</h3>
+      <p>Left.</p>
+    </div>
+
+    <div class="box-right">
+      <h1>Right Box</h1>
+      <p>Right.</p>
+	</div>
+
+	<div class="clear"></div>
+
+
+</table>
 </body>
 </html>

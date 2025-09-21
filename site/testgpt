@@ -1,0 +1,23 @@
+!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My First Page</title>
+</head>
+<body>
+<table border="1" width="100%">
+    <tr>
+        <td width="50%">
+            <!-- Left column content -->
+            <h2>Left Column</h2>
+            <p>This is the left column of the layout. You can put text, images, or other HTML content here.</p>
+        </td>
+        <td width="50%">
+            <!-- Right column content -->
+            <h2>Right Column</h2>
+            <p>This is the right column of the layout. This column is placed next to the left column.</p>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
